@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 #include <stdlib.h>
 /**
  * free_grid - is a function that frees memory from a 2d grid
