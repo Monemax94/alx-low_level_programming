@@ -4,4 +4,4 @@
 
 #define SIZE 1024
 
-#endif //Macro SIZE 1024 Defined.
+#endif
