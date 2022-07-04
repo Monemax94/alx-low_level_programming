@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the of the file 
+ * main - prints the of the file
  *
  * Return: Always 0 (sucess)
  */
