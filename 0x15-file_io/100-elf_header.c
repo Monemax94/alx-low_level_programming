@@ -1,36 +1,13 @@
 #include "main.h"
 
-
 /**
- * main - is a function that prints opcodes of this function
- * @argc: the number of arguments passed
- * @argv: the array of arguments
- * Return: Always 0
+ * main - The entry point for program to get header of ELF file
+ * @argc: The number of arguments
+ * @argv: The pointer to array of arguments
+ * Return: 1 on success, error code on failure
  */
-
 int main(int argc, char *argv[])
 {
-	int x;
-	char *ptr;
-
-	if (argc != 2)
-	{
-		printf("Error\n");
-		exit(1);
-	}
-
-	x = atoi(argv[1]);
-
-	if (x < 0)
-	{
-		printf("Error\n");
-		exit(2);
-	}
-
-	while (x--)
-	{
-		printf("%02x%c", *ptr++ & 0xff, x ? ' ' : '\n');
-	}
-
-	return (0);
+	printf("argc:%d, argv:%p\n", argc, (void *)*argv);
+	return (1);
 }
